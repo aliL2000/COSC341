@@ -1,0 +1,16 @@
+{
+  "name": "blueeyed-reflection-overdo-fpf9k",
+  "productName": "blueeyed-reflection-overdo-fpf9k",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "alila",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "9.0.2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ludicrous-pickle-are-t3rx4",
+  "productName": "ludicrous-pickle-are-t3rx4",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "alila",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "9.0.2"
+  }
+}
