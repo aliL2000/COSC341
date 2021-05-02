@@ -1,0 +1,1 @@
+Both files have differently written randomIndex functions, because of the way that Order by Frequency affects the position of the indixes, regardless, they should perform perfectly, for both of them.

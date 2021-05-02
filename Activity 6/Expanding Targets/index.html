@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Static Icon Layout</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+
+  </head>
+  <body>
+    <div >
+      <p id="location"></p>
+    </div>
+    <div id="trueWindow">
+      <div class="centered">
+        <p id="compass">Click This Icon: 
+          <img id="indicator" width=50 height=50>
+        </p>
+      </div>
+      <p id="counter">&nbsp;</p>
+      <div id="buttonCast">
+        <input type="button" id="startBtn" value="Start">
+      </div>
+      <span class="ImageDrawer" id="iconDrawer">
+        <img class="icon" id="i0" src="https://pyxis.nymag.com/v1/imgs/5dc/989/4d0017654586e4438f882f6de4678840b2-moon-water-2.rsquare.w700.jpg" width=50 height=50>
+        <img class="icon" id="i1" src="https://images.theconversation.com/files/283607/original/file-20190711-44497-1oird5q.jpeg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip" width=50 height=50>
+        <img class="icon" id="i2" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2007/02/true-colour_image_of_mars_seen_by_osiris/9969705-2-eng-GB/True-colour_image_of_Mars_seen_by_OSIRIS_pillars.jpg" width=50 height=50>
+        <img class="icon" id="i3" src="https://earthsky.org/upl/2020/03/jupiter-perijove25-e1583360265305.png" width=50 height=50>
+        <img class="icon" id="i4" src="https://cdn.uanews.arizona.edu/s3fs-public/images/uanow/Pluto_UANow%20thmb.jpg" width=50 height=50>
+        <!--TODO: More Icons Here (number them in order, so i1..i4 -->
+      </span>
+    </div>
+  </body>
+    <script>
+      require('./renderer.js')
+    </script>
+</html>
